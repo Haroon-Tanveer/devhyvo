@@ -87,12 +87,12 @@ export default function Hero() {
           </motion.div>
 
           {/* Main Title */}
-          <div className="space-y-4">
+          <div className=" mt-5 space-y-4">
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight"
+              className="mt-8 text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight"
             >
               <span className="text-foreground">Building</span>
               <br />
