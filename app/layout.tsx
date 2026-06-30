@@ -16,9 +16,28 @@ const orbitron = Orbitron({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://devhyvo.com'),
   title: 'DevHyvo | Premium Game Development Studio',
- 
   description: 'DevHyvo develops immersive Unreal Engine 5 games with cutting-edge graphics, innovative gameplay, and unforgettable adventures. AAA-quality game development for PC, console, mobile, and VR.',
+  icons: [
+    {
+      rel: 'icon',
+      url: '/favicon.svg?v=2',
+      type: 'image/svg+xml',
+      sizes: 'any',
+    },
+    {
+      rel: 'shortcut icon',
+      url: '/favicon.svg?v=2',
+      type: 'image/svg+xml',
+      sizes: 'any',
+    },
+    {
+      rel: 'apple-touch-icon',
+      url: '/favicon.svg?v=2',
+      type: 'image/svg+xml',
+    },
+  ],
   keywords: ['game development', 'unreal engine 5', 'UE5', 'unity', 'game studio', ' indie games', 'AAA games', 'multiplayer', 'VR games', 'game art'],
   authors: [{ name: 'DevHyvo', url: 'https://devhyvo.com' }],
   creator: 'Haroon Tanveer',
