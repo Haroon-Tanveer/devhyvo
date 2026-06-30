@@ -1,3 +1,4 @@
+declare module '*.css';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter, Orbitron } from 'next/font/google';
@@ -12,8 +13,11 @@ const orbitron = Orbitron({
   variable: '--font-orbitron',
 });
 
+
+
 export const metadata: Metadata = {
   title: 'DevHyvo | Premium Game Development Studio',
+ 
   description: 'DevHyvo develops immersive Unreal Engine 5 games with cutting-edge graphics, innovative gameplay, and unforgettable adventures. AAA-quality game development for PC, console, mobile, and VR.',
   keywords: ['game development', 'unreal engine 5', 'UE5', 'unity', 'game studio', ' indie games', 'AAA games', 'multiplayer', 'VR games', 'game art'],
   authors: [{ name: 'DevHyvo', url: 'https://devhyvo.com' }],
